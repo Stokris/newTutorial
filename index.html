@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="-tutorial.css">
+    <body background="https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/subtle-light-grunge-texture-8.jpg"></body>
+
+  </head>
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300">
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 16px;
+      
+      }
+    </style>
+        <header style="width:100%; text-align:center; background-color: aquamarine">
+        <h1>Tutorial on JavaScript</h1>
+
+        <link rel="stylesheet" type="text/css" href="tutorial.css"> 
+    </header> 
+<body>
+  <nav id="navMenu">
+
+    <ul>
+      <li><a href="#"><img src="./assets/facebook_20.png" alt="Facebook" border="0" class="socialIcon"></a></li>
+      <li><a href="#"><img src="./assets/twitter_20.png" alt="Twitter" border="0" class="socialIcon"></a></li>
+      <li><a href="#"><img src="./assets/google_plus_20.png" alt="Google Plus" border="0" class="socialIcon"></a></li>
+    </ul>
+  </nav>
+
+  <section id="main">
+      <h1>Topics</h1>
+      <ul>
+          <li>For Loops</li>
+          <li>Arrays</li>
+          <li>Functions</li>
+      </ul>
+      <br>
+
+      <div class="for loops" style="border: 2px dotted rgba(226,162,142)">
+          <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+        <h1>For Loops</h1>
+        <p>The For Loop will repeat until a specified condition is false.
+          What happens when a for statement is running?</p>
+
+          <ul>
+            <li>The variable section is executed; this expression usually sets a counter for the loop to declare a specific value.</li>
+            <li>The conditional section is evaluated; If the value is true, the loop will continue to run. When it is false, the for loop stops. If the conditional statement is omitted, the default is true. This may also lead to an infinite loop. No bueno.</li>
+            <li>The statement executes.</li>
+            <li>The increment section is executed. In this, you can designate whether the value is added, subtracted, counts in increments, etc.</li>
+          </ul>
+          Example of For Loop and how to read one
+          <pre><code>for (var i = 0; i <= 50; i += 5){
+            console.log(i);</code></pre>
+            This is read as, "Variable i starts at 0, we are counting up to 50, and we are counting to 50 by 5's."
+        </div>
+        <br>
+
+      <div class="arrays" style="border: 2px dashed rgba(171,99,140)">
+      <h1>Arrays</h1>
+      <p>An array is a numerically indexed map of values. Starts at 0.
+        Here are some key points:</p>
+        <ul>
+          <li>An array is created like a variable.</li>
+          <li>It can be named anything.</li>
+          <li>Uses square [] brackets</li>
+          <li>Uses commas in the brackets to separate items.</li>
+          <li>Can have a collection of one type OR can collect multiple types.</li>
+        </ul>
+        Here is an Example
+        <pre><code>let colors =["Red", "Green", "Blue", "Purple", "Orange"];
+          console.log(colors[3]); </code></pre>
+          In this console.log, we are calling out index value 3, which would give us a result of Purple. 
+       </div>
+       <br>
+       
+       <div class="functions" style="border: 2px double rgba(255,254,208)">
+      <h1>Functions</h1>
+      <p>A function allows us to execute some action or actions. A few key parts to functions:</p>
+        <ul>
+          <li>Calling a function: means we are going to use it; say the name of the function followed by ().</li>
+          <li>Parameters: the names listed in the function definition</li>
+          <li>Arguments: the real values received by the function when you call it.</li>
+          <li>The "RETURN" keyword: the return is the value that the function spits out.</li>
+        </ul>
+        A small example, written two ways
+        <pre><code>function hi() {
+            console.log('hello!');
+        }
+
+        
+        hi();</code></pre>
+        Here we have named the function "hi", and want to give it the result "hello!" when we call it.
+    
+    </div>
+      </section>
+
+      <footer>
+          <span>&copy;My First Page 2018 </span>
+          
+          <ul id="footerMenu">
+          <li><a href="#">Legal Stuff</a></li>
+          <li><a href="#">More Legal Stuff</a></li>
+        </ul>
+      </footer>
+
+
+    </body>
+</html>
